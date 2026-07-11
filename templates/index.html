@@ -715,7 +715,7 @@
 <body>
 
     <nav class="navbar">
-        <div class="nav-logo"><span class="dot"></span>CHENGUTTUVAN>R.T</div>
+        <div class="nav-logo"><span class="dot"></span>CHENGUTTUVAN.R.T</div>
         <button class="nav-toggle" id="navToggle">☰</button>
         <div class="nav-links" id="navLinks">
             <a href="#about">About</a>
@@ -730,7 +730,8 @@
     <!-- ================= HERO ================= -->
     <section class="hero" id="home">
         <div class="hero-photo-wrap">
-            <img src="profile.jpeg" alt="Profile Photo">
+            <img src="{{ url_for('static', filename='profile.jpeg') }}"
+     alt="Chenguttuvan R T Profile Photo">
         </div>
         <div class="hero-content">
             <div class="hero-badge"><span class="dot"></span> open to opportunities</div>
